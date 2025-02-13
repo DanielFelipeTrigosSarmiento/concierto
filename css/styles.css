@@ -1,0 +1,15 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.caja{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 80%;
+}
