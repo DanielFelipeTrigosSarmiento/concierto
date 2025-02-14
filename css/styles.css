@@ -5,3 +5,126 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(252, 252, 252);
+    background-color: #f7f7ff;
+}
+
+.div_alto{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80%;
+}
+.div_medio{
+    /* background-color: red; */
+    margin-left: 20px;
+    margin-right: 20px;
+   margin-top: 30px;
+}
+.span_find{
+    font-family: "inter";
+    color: black;
+    font-size: 25px;
+}
+.span_other{
+    font-family: "inter";
+    color: purple;
+    font-size: 25px;
+}
+.search-box{
+    /* background-color: yellow; */
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+    height: 40px;
+    z-index: -1;
+    border: none;
+    border-radius: 10px;
+}
+.txt_search{
+    /* background-color: green; */
+    display: flex;
+    position: absolute;
+    top: 229px;
+    left: 30px;
+}
+.txt{
+    /* background-color: blue; */
+    display: flex;
+    position: absolute;
+    font-size: 10px;
+    left: 62px;
+    top: 229px;
+    font-family: "regular";
+}
+.filter{
+    /* background-color: red; */
+    display: flex;
+    position: absolute;
+    left: 87%;
+    top: 230px;
+}
+.busqueda{
+    background-color: green;
+}
+.scroll{
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+    height: auto; 
+    overflow-x: auto;
+    gap: 30px;
+}
+.caja1{
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: var(--color-3);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    width: 50%;
+    height: 30px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+}
+
+.caja2{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 60%;
+    height: 30px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+    
+}
+.caja3{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 30%;
+    height: 40px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    /* padding: 10px; */    
+}
+.caja4{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    width: 30%;
+    height: 40px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    /* padding: 10px; */    
+}

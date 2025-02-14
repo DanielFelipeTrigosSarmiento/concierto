@@ -1,9 +1,17 @@
 :root{
     --color-1: #FFFFFF;
+    --color-2: #00EDFC;
+    --color-3: #EDE9FF;
+
 
 }
 
 @font-face {
-    font-family: "";
-    src: url();
+    font-family: "inter";
+    src: url(/storage/fonts/Inter/Inter_18pt-SemiBold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    font-weight: 600;
+    src: url(/storage/fonts/Inter/Inter_18pt-Regular.ttf);
 }
