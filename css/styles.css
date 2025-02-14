@@ -24,7 +24,7 @@ body{
     /* background-color: red; */
     margin-left: 20px;
     margin-right: 20px;
-   margin-top: 30px;
+    margin-top: 30px;
 }
 .span_find{
     font-family: "inter";
@@ -70,61 +70,51 @@ body{
     left: 87%;
     top: 230px;
 }
-.busqueda{
-    background-color: green;
-}
-.scroll{
-    display: flex;
-    flex-direction: row;
-    width: 150%;
-    height: auto; 
+.scroll {
+    /* background-color: red; */
+    width: 100%;
+    height: 50px;
     overflow-x: auto;
-    gap: 30px;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
-.caja1{
-    margin-top: 10px;
+
+.scroll_data {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.caja1, .caja2, .caja3, .caja4 {
+    margin: 10px;
+    font-family: "regular";
     margin-left: 20px;
-    background-color: var(--color-3);
     border: none;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    font-size: 10px;
-    width: 50%;
+    font-size: 15px;
     height: 30px;
     border: 2px solid #ccc;
-    margin-bottom: 10px;
-    /* padding: 10px; */
+    padding-left: 15px;
+    padding-right: 10px;
+    border: none;
 }
 
-.caja2{
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    width: 60%;
-    height: 30px;
-    border: 2px solid #ccc;
-    margin-bottom: 10px;
-    /* padding: 10px; */
-    
+.caja1 {
+    width: 45%;
+    background-color: var(--color-3);
 }
+
+.caja2 {
+    width: 35%;
+    background-color: var(--color-4);
+}
+
 .caja3{
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    width: 30%;
-    height: 40px;
-    border: 2px solid #ccc;
-    margin-bottom: 10px;
-    /* padding: 10px; */    
+    width: 50%;
+    background-color: var(--color-5);
 }
-.caja4{
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    width: 30%;
-    height: 40px;
-    border: 2px solid #ccc;
-    margin-bottom: 10px;
-    /* padding: 10px; */    
+.caja4 {
+    width: 50%;
+    background-color: var(--color-6);
 }
