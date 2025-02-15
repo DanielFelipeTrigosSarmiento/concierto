@@ -145,7 +145,7 @@ body{
     height: 22px;
 }
 .concerts{
-    /* background-color: blue; */
+    /* background-color: white; */
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -155,21 +155,137 @@ body{
     overflow-x: auto;
     gap: 30px;
 }
-.concert_1{
-    /* z-index: -1; */
+.txt_3{
+    margin-top: 35px;
+    margin-left: 7%;
+    margin-right: 7%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
 }
-.concert_11{
-    /* display: flex;
+.txt_33{
+    /* background-color: red; */
+    font-family: "inter";
+    font-size: 12px;
+    width: 45%;
+}
+.txt_333{
+    margin-right: 7%;
+    font-size: 14px;
+    width: 15%;
+    font-family: "regular";
+    /* background-color: green; */
+    display: flex;
     position: absolute;
-    left: 9.5%;
-    top: 72%; */
-    z-index: -1;
+    left: 85%;
+    height: 22px;
 }
-.concert_12{
-    max-width: fit-content;
-    margin-inline: auto;
+.span_fin{
+    color: orange;
+}
+.section_baja{
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;    
+    margin-top: 20px;
+    margin-left: 7%;
+    margin-bottom: 40px;
+    border: 1px;
+    /* background-color: white; */
+
+}
+.caja_izq{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* width: 38%; */
+    /* background-color: yellow; */
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+
+}
+.caja_izq img{
+    padding: 8px;
+}
+.caja_izq h2{
+    padding-left: 10px;
+    font-family: "inter";
+    font-size: 10px;
+
+}
+.caja_izq h3{
+    padding-left: 30px;
+    font-family: "regular";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.caja_izq h1{
+    padding-left: 30px;
+    font-family: "inter";
+    font-size: 15px;
+    padding-bottom: 10px;
 }
 
-.concert_2{
-    margin-right: 20px;
+.caja_der{
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    /* width: 38%; */
+    /* background-color: yellow; */
+    /* margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px; */
+
 }
+.caja_der img{
+    padding: 8px;
+}
+.caja_der h2{
+    padding-left: 10px;
+    font-family: "inter";
+    font-size: 10px;
+
+}
+.caja_der h3{
+    padding-left: 30px;
+    font-family: "regular";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.caja_der h1{
+    padding-left: 30px;
+    font-family: "inter";
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.location{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 28px;
+    top: 795px;
+}
+.calender{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 28px;
+    top: 815px;
+}
+.eva{  
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30px;
+    top: 835px;
+}
+body{
+    
+}
+  
