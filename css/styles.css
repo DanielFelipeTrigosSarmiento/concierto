@@ -18,7 +18,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 80%;
+    gap: 85%;
 }
 .div_medio{
     /* background-color: red; */
@@ -85,9 +85,10 @@ body{
 }
 
 .caja1, .caja2, .caja3, .caja4 {
-    margin: 10px;
+    margin-top: 20px;
     font-family: "regular";
     margin-left: 20px;
+    margin-right: 20px;
     border: none;
     border-radius: 10px;
     display: flex;
@@ -117,4 +118,29 @@ body{
 .caja4 {
     width: 50%;
     background-color: var(--color-6);
+}
+.txt_2{
+    margin-top: 35px;
+    margin-left: 7%;
+    margin-right: 7%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+}
+.txt_1{
+    /* background-color: red; */
+    font-family: "inter";
+    font-size: 12px;
+    width: 45%;
+}
+.txt_22{
+    margin-right: 7%;
+    font-size: 14px;
+    width: 15%;
+    font-family: "regular";
+    background-color: green;
+    display: flex;
+    position: absolute;
+    left: 85%;
+    height: 22px;
 }
