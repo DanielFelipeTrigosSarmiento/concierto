@@ -285,7 +285,20 @@ body{
     width: 30px;
     top: 835px;
 }
-body{
-    
+.banner{
+    display: flex;
+    /* background-color: blue; */
+    width: 107%;
+    justify-items: center;
+    align-items: center;
+    margin-left: -5%;
+    margin-top: -5%;
+    z-index: -1;
 }
-  
+
+.banner img{
+    display: flex;
+    height: 100%;
+    width: 120%;
+    z-index: -1;
+}
